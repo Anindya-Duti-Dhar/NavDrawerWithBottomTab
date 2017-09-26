@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Photo Feeds</string>
+
+    <string name="friends_feeds_toolbar">Followers</string>
+    <string name="all_feeds_toolbar">Dashboard</string>
+    <string name="profile_toolbar">Profile</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="click_action">You Have Clicked</string>
+    <string name="something_wrong">Somethings Wrong</string>
+
+</resources>
