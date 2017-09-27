@@ -3,6 +3,7 @@ package anindya.sample.samplephotopicker;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -198,11 +199,15 @@ public class MainActivity extends AppCompatActivity {
     // back press listener
     @Override
     public void onBackPressed() {
-
         //close search view it's open
         if (searchView.isSearchOpen()) {
             searchView.closeSearch();
-        } else {
+        }
+        //close drawer it's open
+        else if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawer(GravityCompat.START);
+        }
+        else {
             super.onBackPressed();
         }
     }
