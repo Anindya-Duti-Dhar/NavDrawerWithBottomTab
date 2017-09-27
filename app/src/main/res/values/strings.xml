@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Photo Feeds</string>
+    <string name="app_name">Simple Bottom Tab Navigation</string>
 
     <string name="friends_feeds_toolbar">Followers</string>
     <string name="all_feeds_toolbar">Dashboard</string>
